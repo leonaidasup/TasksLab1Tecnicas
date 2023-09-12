@@ -27,7 +27,7 @@ public class Task4 {
         return (int)(money / 1000) + " billetes de 1.000\n" + money500(money % 1000);
     }
     public static String money500(double money) {
-        return (int)(money / 500) + " monedas de 500.\n\nQuedaron " + money % 500 + "dentro de su cuenta.";
+        return (int)(money / 500) + " monedas de 500.\nQuedaron " + money % 500 + "dentro de su cuenta.";
     }
     public static void retire(double money) {
         System.out.println(money100k(money));
